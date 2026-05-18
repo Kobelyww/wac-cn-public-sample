@@ -1,0 +1,144 @@
+{
+  "mandarin_split_salt": "exp1_mandarin_split_v1",
+  "train_csv": "/Users/haobowang/Downloads/Bilibili_Audio/dataset/train.csv",
+  "val_csv": "/Users/haobowang/Downloads/Bilibili_Audio/dataset/val.csv",
+  "test_csv": "/Users/haobowang/Downloads/Bilibili_Audio/dataset/test.csv",
+  "ablations": [
+    "beijing_vs_other",
+    "mandarin_vs_all_accents",
+    "loss",
+    "probe_head"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "mlp_hidden": 256,
+  "mlp_dropout": 0.2,
+  "note": "CSV files are rewritten after each model completes within a block (safe to stop early).",
+  "split_counts_beijing_vs_other": {
+    "data2vec-audio-b": {
+      "train": 18943,
+      "val": 4346,
+      "test": 3420
+    },
+    "ecapa-tdnn": {
+      "train": 18943,
+      "val": 4346,
+      "test": 3420
+    },
+    "hubert-en-b": {
+      "train": 18943,
+      "val": 4346,
+      "test": 3420
+    },
+    "hubert-zh-b": {
+      "train": 18943,
+      "val": 4346,
+      "test": 3420
+    },
+    "rawnet3": {
+      "train": 18943,
+      "val": 4346,
+      "test": 3420
+    },
+    "resnet-voxceleb": {
+      "train": 18943,
+      "val": 4346,
+      "test": 3420
+    },
+    "unispeech-sat-b": {
+      "train": 18943,
+      "val": 4346,
+      "test": 3420
+    },
+    "w2v2-en-b": {
+      "train": 18943,
+      "val": 4346,
+      "test": 3420
+    },
+    "w2v2-zh-b": {
+      "train": 18943,
+      "val": 4346,
+      "test": 3420
+    },
+    "wavlm-b": {
+      "train": 18943,
+      "val": 4346,
+      "test": 3420
+    },
+    "whisper-base": {
+      "train": 18943,
+      "val": 4346,
+      "test": 3420
+    },
+    "xvect-voxceleb": {
+      "train": 18943,
+      "val": 4346,
+      "test": 3420
+    }
+  },
+  "split_counts_mandarin_vs_all_accents": {
+    "data2vec-audio-b": {
+      "train": 28377,
+      "val": 6321,
+      "test": 5399
+    },
+    "ecapa-tdnn": {
+      "train": 28377,
+      "val": 6321,
+      "test": 5399
+    },
+    "hubert-en-b": {
+      "train": 28377,
+      "val": 6321,
+      "test": 5399
+    },
+    "hubert-zh-b": {
+      "train": 28377,
+      "val": 6321,
+      "test": 5399
+    },
+    "rawnet3": {
+      "train": 28377,
+      "val": 6321,
+      "test": 5399
+    },
+    "resnet-voxceleb": {
+      "train": 28377,
+      "val": 6321,
+      "test": 5399
+    },
+    "unispeech-sat-b": {
+      "train": 28377,
+      "val": 6321,
+      "test": 5399
+    },
+    "w2v2-en-b": {
+      "train": 28377,
+      "val": 6321,
+      "test": 5399
+    },
+    "w2v2-zh-b": {
+      "train": 28377,
+      "val": 6321,
+      "test": 5399
+    },
+    "wavlm-b": {
+      "train": 28377,
+      "val": 6321,
+      "test": 5399
+    },
+    "whisper-base": {
+      "train": 28377,
+      "val": 6321,
+      "test": 5399
+    },
+    "xvect-voxceleb": {
+      "train": 28377,
+      "val": 6321,
+      "test": 5399
+    }
+  }
+}

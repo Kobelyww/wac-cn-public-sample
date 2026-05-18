@@ -1,0 +1,32 @@
+{
+  "task": "experiment3_seven_way_mlp_probe_supplement",
+  "feature_root": "/Users/haobowang/Downloads/Bilibili_Audio/features",
+  "output_root": "/Users/haobowang/Downloads/Bilibili_Audio/experiment3_supplement_mlp/results",
+  "exclude_accents": [
+    "山西",
+    "闽南"
+  ],
+  "class_order": [
+    "Mandarin",
+    "东北",
+    "东南",
+    "北京",
+    "西南",
+    "广东",
+    "河南"
+  ],
+  "n_classes": 7,
+  "models": [
+    "ecapa-tdnn",
+    "hubert-zh-b"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "mlp_hidden": 256,
+  "mlp_dropout": 0.2,
+  "pli_note": "PLI_mf1 = mf1_lin^2 / max(mf1_lin, mf1_mlp); same eta/delta as run_experiment1_ablations.pli_eta_delta",
+  "eps_pli": 0.0001
+}

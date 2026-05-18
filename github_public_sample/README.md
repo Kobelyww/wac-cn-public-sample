@@ -1,20 +1,23 @@
-# `github_public_sample` bundle
+# `github_public_sample` layout
 
 ## Audio (`wac_cn_audio_sample/`)
 
-- **Bilibili-only:** every row copied from the HuBERT-ZH-B manifest satisfies `source_dataset == bilibili` (excludes MHACCS and read-Mandarin/THCHS anchor rows).
-- Layout: one folder per macro label (English slug), **3 clips per label** when available.
-- Current manifest slice includes six Bilibili-heavy labels (e.g. Northeast, Southeast, Beijing, Southwest, Guangdong, Minnan); **Henan / Shanxi / Mandarin** may be absent here because they are not labeled as `bilibili` in that manifest.
+- **Bilibili-only:** `source_dataset == bilibili` in the HuBERT–Chinese-Base manifest.
+- Up to **3 clips per label**; six regional labels appear in that manifest slice.
+- Henan / Shanxi / read-Mandarin register clips are not part of this Bilibili-only bundle.
 
 ## Metadata (`metadata/wac_cn_sample_manifest.csv`)
 
-Columns:
+- `relpath` is relative to `github_public_sample/`.
+- `source_dataset` is `bilibili` for all listed clips.
 
-- `label_annot`: original annotation string
-- `label_slug`: directory name under `wac_cn_audio_sample/`
-- `relpath`: path relative to `github_public_sample/`
-- `source_dataset`: always `bilibili` in this teaser
+## Results (`results/`)
 
-## Paper artifacts (`paper_artifacts/`)
+- `experiment1_results/`, `experiment1_ablation_results/` — coarse binary probe.
+- `experiment2_results/` — nine-way geometry and t-SNE exports.
+- `experiment3_results/` — seven-way linear probe, confusion matrices, CSV summaries.
+- `experiment3_supplement_mlp/` — MLP head comparison supplement.
 
-Frozen-encoder confusion PDFs, t-SNE PNGs, and the data-collection pipeline figure from the paper. These artifacts correspond to the **full** probing protocol in the manuscript, not to Bilibili-only inputs.
+## Figures (`figures/`)
+
+Pipeline / ingest overview PNG used in the paper.

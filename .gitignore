@@ -2,6 +2,7 @@
 data_wav/
 features/
 mhaccs_mandarin_5class/
+scripts/build_github_public_sample.py
 experiment4/
 lda_ecapa_pipeline/
 .tmp_features_smoke/

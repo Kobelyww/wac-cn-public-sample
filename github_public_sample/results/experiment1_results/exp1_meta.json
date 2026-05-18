@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "accent_labels": [
+      "\u5e7f\u4e1c",
+      "\u6cb3\u5357"
+    ],
+    "mandarin_split": "hash_70_15_15",
+    "mandarin_split_salt": "exp1_mandarin_split_v1",
+    "train_csv": "/Users/haobowang/Downloads/Bilibili_Audio/dataset/train.csv",
+    "val_csv": "/Users/haobowang/Downloads/Bilibili_Audio/dataset/val.csv",
+    "test_csv": "/Users/haobowang/Downloads/Bilibili_Audio/dataset/test.csv",
+    "samples_per_split": {
+      "data2vec-audio-b": {
+        "train": 17664,
+        "val": 3869,
+        "test": 3628
+      },
+      "ecapa-tdnn": {
+        "train": 17664,
+        "val": 3869,
+        "test": 3628
+      },
+      "hubert-en-b": {
+        "train": 17664,
+        "val": 3869,
+        "test": 3628
+      },
+      "hubert-zh-b": {
+        "train": 17664,
+        "val": 3869,
+        "test": 3628
+      },
+      "rawnet3": {
+        "train": 17664,
+        "val": 3869,
+        "test": 3628
+      },
+      "resnet-voxceleb": {
+        "train": 17664,
+        "val": 3869,
+        "test": 3628
+      },
+      "unispeech-sat-b": {
+        "train": 17664,
+        "val": 3869,
+        "test": 3628
+      },
+      "w2v2-en-b": {
+        "train": 17664,
+        "val": 3869,
+        "test": 3628
+      },
+      "w2v2-zh-b": {
+        "train": 17664,
+        "val": 3869,
+        "test": 3628
+      },
+      "wavlm-b": {
+        "train": 17664,
+        "val": 3869,
+        "test": 3628
+      },
+      "whisper-base": {
+        "train": 17664,
+        "val": 3869,
+        "test": 3628
+      },
+      "xvect-voxceleb": {
+        "train": 17664,
+        "val": 3869,
+        "test": 3628
+      }
+    }
+  },
+  "per_model_n_seeds": {
+    "data2vec-audio-b": 3,
+    "ecapa-tdnn": 3,
+    "hubert-en-b": 3,
+    "hubert-zh-b": 3,
+    "rawnet3": 3,
+    "resnet-voxceleb": 3,
+    "unispeech-sat-b": 3,
+    "w2v2-en-b": 3,
+    "w2v2-zh-b": 3,
+    "wavlm-b": 3,
+    "whisper-base": 3,
+    "xvect-voxceleb": 3
+  }
+}
