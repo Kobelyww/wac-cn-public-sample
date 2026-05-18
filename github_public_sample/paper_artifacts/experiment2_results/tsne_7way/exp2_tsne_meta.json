@@ -1,0 +1,41 @@
+{
+  "accent_sources": [
+    "/Users/haobowang/Downloads/Bilibili_Audio/dataset/test.csv",
+    "/Users/haobowang/Downloads/Bilibili_Audio/dataset/val.csv"
+  ],
+  "args": {
+    "feature_root": "/Users/haobowang/Downloads/Bilibili_Audio/features",
+    "output_dir": "experiment2_results/tsne_7way",
+    "dataset_root": "/Users/haobowang/Downloads/Bilibili_Audio/dataset",
+    "accent_pool": "test_val",
+    "accent_test_csv": "/Users/haobowang/Downloads/Bilibili_Audio/dataset/test.csv",
+    "accent_val_csv": "/Users/haobowang/Downloads/Bilibili_Audio/dataset/val.csv",
+    "mandarin_mode": "hash_test",
+    "mandarin_test_csv": null,
+    "mandarin_test_fraction": 0.15,
+    "mandarin_hash_salt": "exp2_mandarin_test_v1",
+    "model": [
+      "ecapa-tdnn",
+      "hubert-en-b",
+      "hubert-zh-b",
+      "w2v2-en-b",
+      "w2v2-zh-b"
+    ],
+    "max_per_class": 220,
+    "pca_components": 50,
+    "perplexity": 30.0,
+    "seed": 42,
+    "figure_style": "paper",
+    "dpi": 300,
+    "figsize": [
+      2.12,
+      1.42
+    ],
+    "scatter_size": 10.0,
+    "scatter_lw": 0.0,
+    "tsne_verbose": 0,
+    "show_meta": false,
+    "legend": "right",
+    "exclude_accents": "闽南,山西"
+  }
+}

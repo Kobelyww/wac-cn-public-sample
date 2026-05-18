@@ -1,0 +1,18 @@
+# Local corpus (full WAC-CN audio; do not commit)
+data_wav/
+features/
+mhaccs_mandarin_5class/
+experiment4/
+lda_ecapa_pipeline/
+.tmp_features_smoke/
+
+# Large experiment runs / intermediates
+*.pt
+__pycache__/
+*.pyc
+.DS_Store
+
+# ASR pipeline outputs may contain machine-specific paths
+asr_accent_robustness/outputs/
+
+# Kept small in-repo: github_public_sample/ (public teaser)

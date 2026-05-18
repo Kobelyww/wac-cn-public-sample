@@ -1,0 +1,28 @@
+label_annot,label_slug,clip_id,relpath,source_title,source_region,source_dataset
+Mandarin,Mandarin,A11_0.wav,wac_cn_audio_sample/Mandarin/A11_0.wav,A11_0,Mandarin,mandarin
+Mandarin,Mandarin,A11_1.wav,wac_cn_audio_sample/Mandarin/A11_1.wav,A11_1,Mandarin,mandarin
+Mandarin,Mandarin,A11_10.wav,wac_cn_audio_sample/Mandarin/A11_10.wav,A11_10,Mandarin,mandarin
+东北,Northeast,bilibili_00000_seg000.wav,wac_cn_audio_sample/Northeast/bilibili_00000_seg000.wav,【4K小品合集】《拜年+钟点工+心病》字幕画质修复 ｜ 赵本山、宋丹丹、高秀敏、范伟！,东北,bilibili
+东北,Northeast,bilibili_00000_seg001.wav,wac_cn_audio_sample/Northeast/bilibili_00000_seg001.wav,【4K小品合集】《拜年+钟点工+心病》字幕画质修复 ｜ 赵本山、宋丹丹、高秀敏、范伟！,东北,bilibili
+东北,Northeast,bilibili_00000_seg002.wav,wac_cn_audio_sample/Northeast/bilibili_00000_seg002.wav,【4K小品合集】《拜年+钟点工+心病》字幕画质修复 ｜ 赵本山、宋丹丹、高秀敏、范伟！,东北,bilibili
+东南,Southeast,bilibili_00003_seg000.wav,wac_cn_audio_sample/Southeast/bilibili_00003_seg000.wav,1.27台媒： 股市爆！民调跌！高市想对华求饶？晚了！,东南,bilibili
+东南,Southeast,bilibili_00003_seg001.wav,wac_cn_audio_sample/Southeast/bilibili_00003_seg001.wav,1.27台媒： 股市爆！民调跌！高市想对华求饶？晚了！,东南,bilibili
+东南,Southeast,bilibili_00003_seg002.wav,wac_cn_audio_sample/Southeast/bilibili_00003_seg002.wav,1.27台媒： 股市爆！民调跌！高市想对华求饶？晚了！,东南,bilibili
+北京,Beijing,bilibili_00013_seg000.wav,wac_cn_audio_sample/Beijing/bilibili_00013_seg000.wav,【今日睇真D】北京人吵架您能听明白么、,北京,bilibili
+北京,Beijing,bilibili_00013_seg001.wav,wac_cn_audio_sample/Beijing/bilibili_00013_seg001.wav,【今日睇真D】北京人吵架您能听明白么、,北京,bilibili
+北京,Beijing,bilibili_00013_seg002.wav,wac_cn_audio_sample/Beijing/bilibili_00013_seg002.wav,【今日睇真D】北京人吵架您能听明白么、,北京,bilibili
+西南,Southwest,bilibili_00033_seg000.wav,wac_cn_audio_sample/Southwest/bilibili_00033_seg000.wav,四川人烫嘴巴的普通话,西南,bilibili
+西南,Southwest,bilibili_00033_seg001.wav,wac_cn_audio_sample/Southwest/bilibili_00033_seg001.wav,四川人烫嘴巴的普通话,西南,bilibili
+西南,Southwest,bilibili_00033_seg002.wav,wac_cn_audio_sample/Southwest/bilibili_00033_seg002.wav,四川人烫嘴巴的普通话,西南,bilibili
+广东,Guangdong,bilibili_00040_seg000.wav,wac_cn_audio_sample/Guangdong/bilibili_00040_seg000.wav,香港人讲普通话——讲起来连自己都怕！迷之港式普通话,香港,bilibili
+广东,Guangdong,bilibili_00040_seg001.wav,wac_cn_audio_sample/Guangdong/bilibili_00040_seg001.wav,香港人讲普通话——讲起来连自己都怕！迷之港式普通话,香港,bilibili
+广东,Guangdong,bilibili_00040_seg002.wav,wac_cn_audio_sample/Guangdong/bilibili_00040_seg002.wav,香港人讲普通话——讲起来连自己都怕！迷之港式普通话,香港,bilibili
+河南,Henan,mhaccs_00041_seg000.wav,wac_cn_audio_sample/Henan/mhaccs_00041_seg000.wav,G0001_S0001_0_SPK002,"CHINA,Henan",mhaccs
+河南,Henan,mhaccs_00041_seg001.wav,wac_cn_audio_sample/Henan/mhaccs_00041_seg001.wav,G0001_S0001_0_SPK002,"CHINA,Henan",mhaccs
+河南,Henan,mhaccs_00041_seg002.wav,wac_cn_audio_sample/Henan/mhaccs_00041_seg002.wav,G0001_S0001_0_SPK002,"CHINA,Henan",mhaccs
+闽南,Minnan,bilibili_00035_seg000.wav,wac_cn_audio_sample/Minnan/bilibili_00035_seg000.wav,2019年复旦大学新年论坛—曹德旺演讲：看见未来要先看清历史,闽南,bilibili
+闽南,Minnan,bilibili_00035_seg001.wav,wac_cn_audio_sample/Minnan/bilibili_00035_seg001.wav,2019年复旦大学新年论坛—曹德旺演讲：看见未来要先看清历史,闽南,bilibili
+闽南,Minnan,bilibili_00035_seg002.wav,wac_cn_audio_sample/Minnan/bilibili_00035_seg002.wav,2019年复旦大学新年论坛—曹德旺演讲：看见未来要先看清历史,闽南,bilibili
+山西,Shanxi,mhaccs_00072_seg000.wav,wac_cn_audio_sample/Shanxi/mhaccs_00072_seg000.wav,G0005_S0001_0_SPK007,"CHINA,Shanxi",mhaccs
+山西,Shanxi,mhaccs_00072_seg001.wav,wac_cn_audio_sample/Shanxi/mhaccs_00072_seg001.wav,G0005_S0001_0_SPK007,"CHINA,Shanxi",mhaccs
+山西,Shanxi,mhaccs_00072_seg002.wav,wac_cn_audio_sample/Shanxi/mhaccs_00072_seg002.wav,G0005_S0001_0_SPK007,"CHINA,Shanxi",mhaccs

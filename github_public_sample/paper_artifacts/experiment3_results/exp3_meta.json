@@ -1,0 +1,110 @@
+{
+  "class_order": [
+    "Mandarin",
+    "东北",
+    "东南",
+    "北京",
+    "西南",
+    "广东",
+    "河南"
+  ],
+  "excluded_accents": [
+    "山西",
+    "闽南"
+  ],
+  "confusion_short_labels": [
+    "M",
+    "DB",
+    "DN",
+    "BJ",
+    "XN",
+    "GD",
+    "HN"
+  ],
+  "mandarin_split": "hash_70_15_15",
+  "mandarin_split_salt": "exp1_mandarin_split_v1",
+  "train_csv": "/Users/haobowang/Downloads/Bilibili_Audio/dataset/train.csv",
+  "val_csv": "/Users/haobowang/Downloads/Bilibili_Audio/dataset/val.csv",
+  "test_csv": "/Users/haobowang/Downloads/Bilibili_Audio/dataset/test.csv",
+  "samples_per_split": {
+    "ecapa-tdnn": {
+      "train": 26685,
+      "val": 5739,
+      "test": 5609
+    },
+    "w2v2-en-b": {
+      "train": 26685,
+      "val": 5739,
+      "test": 5609
+    },
+    "w2v2-zh-b": {
+      "train": 26685,
+      "val": 5739,
+      "test": 5609
+    },
+    "hubert-en-b": {
+      "train": 26685,
+      "val": 5739,
+      "test": 5609
+    },
+    "hubert-zh-b": {
+      "train": 26685,
+      "val": 5739,
+      "test": 5609
+    },
+    "wavlm-b": {
+      "train": 26685,
+      "val": 5739,
+      "test": 5609
+    },
+    "data2vec-audio-b": {
+      "train": 26685,
+      "val": 5739,
+      "test": 5609
+    },
+    "unispeech-sat-b": {
+      "train": 26685,
+      "val": 5739,
+      "test": 5609
+    },
+    "whisper-base": {
+      "train": 26685,
+      "val": 5739,
+      "test": 5609
+    },
+    "resnet-voxceleb": {
+      "train": 26685,
+      "val": 5739,
+      "test": 5609
+    },
+    "rawnet3": {
+      "train": 26685,
+      "val": 5739,
+      "test": 5609
+    },
+    "xvect-voxceleb": {
+      "train": 26685,
+      "val": 5739,
+      "test": 5609
+    }
+  },
+  "saved_weight_policy": "best validation macro-F1 among requested seeds",
+  "saved_confusion_policy": "test confusion from the saved weight",
+  "per_model_n_seeds": {
+    "ecapa-tdnn": 3,
+    "w2v2-en-b": 3,
+    "w2v2-zh-b": 3,
+    "hubert-en-b": 3,
+    "hubert-zh-b": 3,
+    "wavlm-b": 3,
+    "data2vec-audio-b": 3,
+    "unispeech-sat-b": 3,
+    "whisper-base": 3,
+    "resnet-voxceleb": 3,
+    "rawnet3": 3,
+    "xvect-voxceleb": 3
+  },
+  "combined_confusion_grid": null,
+  "confusion_index_csv": "/Users/haobowang/Downloads/Bilibili_Audio/experiment3_results/confusions/exp3_confusion_index.csv",
+  "confusion_standalone_stem": "confusions/exp3_cm_XX_<model>"
+}
